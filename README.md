@@ -13,7 +13,7 @@ Note that you may need to use C++17 Language Standard and also update C++ Prepro
 Please make sure you can run Mockturle before using our scheduler.
 
 ## Run
-To appy the scheduler on an XMG netlist, please:
+To apply the scheduler on an XMG netlist, please:
 
 1) put the .v file of the benchmark into the OPP folder
 
