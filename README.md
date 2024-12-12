@@ -6,7 +6,11 @@ In order to use the scheduler, you will need a Windows machine with:
 
 Mockturtle(https://github.com/lsils/mockturtle)
 
-Please add the include directories of the tool into your project.
+Please add all the include directories of the tool into your project's additional include directories.
+
+Note that you may need to use C++17 Language Standard and also update C++ Preprocessor setting in your project to use Mockturle.
+
+Please make sure you can run Mockturle before using our scheduler.
 
 ## Run
 To appy the scheduler on an XMG netlist, please:
