@@ -2,11 +2,15 @@
 A multi-array scheduler for in-memory SIMD computation targeting at minimizing the number of copy instructions.
 
 ## Dependencies
-In order to use the scheduler, you will need a Windows machine with:
+In order to use the scheduler, you will need a Windows machine with the following tool installed:
 
 Mockturtle(https://github.com/lsils/mockturtle)
 
+We recommend the users to use Visual Studio for this project.
+
 Please add all the include directories of the tool into your project's additional include directories.
+
+Then build the project with Visual Studio.
 
 Note that you may need to use C++17 Language Standard and also update C++ Preprocessor setting in your project to use Mockturle.
 
